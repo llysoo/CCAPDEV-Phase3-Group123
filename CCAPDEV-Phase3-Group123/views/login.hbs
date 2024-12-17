@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login to Time to Lab</title>
+    <link rel="stylesheet" href="css styles\login.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <h1 data-text="USER LOGIN">USER LOGIN</h1>
+        <form id="loginForm">
+            <label for="email">Email:</label></br>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <input type="checkbox" id="rememberMe" name="rememberMe" onclick="setcookie()">
+            <label for="rememberMe">Remember me</label>
+
+            <div class="button-grp">
+                <button type="submit" class="button">login</button>
+                <button type="button" class="button" id="cancel">cancel</button>
+            </div>
+
+        </form>
+
+
+    </div>
+    <script src="js files/main.js"></script>
+    <script src="js files/cancelBtn.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Register to Time to Lab</title>
+    <link rel="stylesheet" href="css styles\register.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo-container">
+            <div class="box">
+                <div class="in-box" style="background-image: url('assets/bg-photo.png');">
+                    <img src="assets/LOGO (WHITE).PNG" class="logo-img">
+                </div>
+            </div>
+        </div>
+        <div class="form-container">
+            <h1>REGISTER USER</h1>
+            <form id="registerForm" action="/submit-registration" method="POST" enctype="multipart/form-data">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="role">Role:</label>
+                <select id="role" name="role" required>
+                    <option value="" selected disabled></option>
+                    <option value="student">student</option>
+                    <option value="technician">lab technician</option>
+                </select>
+
+                <label for="department">Department:</label>
+                <input type="text" id="department" name="department" required>
+
+                <div class="file-input-container">
+                    <label for="image">Profile Image:</label>
+                    <input type="file" id="image" name="image">
+                </div>
+
+                <div class="button-grp">
+                    <button type="submit" class="button">register</button>
+                    <button type="button" class="button" id="cancel">cancel</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+    <script src="js files\main.js"></script>
+    <script src="js files\cancelBtn.js"></script>
+</body>
+
+</html>

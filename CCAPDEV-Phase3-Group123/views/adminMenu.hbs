@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lab System Main Menu</title>
+    <link rel="stylesheet" href="css styles/index.css">
+</head>
+
+<body>
+    <div class="container">
+        <center>
+            <div class="logo">
+                <img src="assets\LOGO (WHITE).PNG" alt="Logo" class="logo-img">
+            </div>
+            <div class="index-btn">
+
+                <form method="get" action="/adminReserve">
+                    <button class="image-btn" type="submit"><img src="assets\CHECKAVAILBTN.png"
+                            class="btn-img"></button></button>
+                </form>
+
+                <form method="get" action="/adminSearchUser">
+                    <button class="image-btn" type="submit"><img src="assets\SRCHUSERBTN.png" class="btn-img"></button>
+                </form>
+
+                <form method="get" action="/adminProfile">
+                    <button class="image-btn" type="submit"><img src="assets\VIEWUSERBTN.png" class="btn-img"></button>
+                </form>
+
+            </div>
+
+            <div class="login-register">
+                <nav>
+                    <form method="post" action="/landingPage">
+                        <button class="login-button" id="logoutButton" type="submit">Logout</button>
+                    </form>
+                </nav>
+
+            </div>
+        </center>
+    </div>
+
+    <script src="js files/main.js"></script>
+</body>
+
+</html>

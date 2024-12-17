@@ -1,0 +1,108 @@
+@import url('https://fonts.cdnfonts.com/css/octuple-max');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fffedc;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    background-color: #f8b5ca;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    width: 50%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.logo-img {
+    max-width: 150%;
+    max-height: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 15px;
+
+}
+
+.index-btn {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.image-btn {
+    width: 90%;
+    height: 100%;
+    background-color: #ecd2fd;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(190, 145, 206, 0.566);
+    border: solid 2px #6b4880;
+}
+
+.btn-img{
+    width: 100%;
+    height: auto;
+    display: block; 
+}
+
+.image-btn:hover{
+    background-color: #c2a3d69c;
+    border-color: #ea458a;
+    cursor: pointer;
+}
+
+.login-register {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.login-button, .register-button {
+    width: 250px;
+    margin-bottom: 10px;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    background-color: #cad8f2; 
+    border: solid 2px #6b4880;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    color: #6b4880;
+    font-family: 'Octuple max', sans-serif;
+    font-size: 1.8rem;
+    box-shadow: 0 0 10px rgba(190, 145, 206, 0.566);
+}
+
+.login-button:hover, .register-button:hover {
+    background-color: #c2a3d69c;
+    color: #ea458a;
+    border-color: #ea458a;
+    cursor: pointer;
+}

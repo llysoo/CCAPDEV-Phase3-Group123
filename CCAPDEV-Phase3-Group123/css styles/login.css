@@ -1,0 +1,94 @@
+@import url('https://fonts.cdnfonts.com/css/octuple-max');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Octuple max',sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fffedc;
+}
+
+.container {
+    width: 80%;
+    max-width: 400px;
+    background-color: #f8b5ca;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    -webkit-text-fill-color: transparent;
+    text-shadow:
+       -1px -1px 0 #f071a6,
+        -1px 1px 0 #7c1995,
+        1px 1px 0 #7c1995;
+    margin-bottom: 20px;
+
+}
+
+label {
+    margin-bottom: 5px;
+    color: #7c1995;
+    font-weight: bold;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="checkbox"] {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 2px solid #ea458a;
+    border-radius: 10px;
+    font-size: 1rem;
+    outline: none;
+    font-family: 'Nunito', sans-serif;
+    width: 100%;
+}
+
+input[type="checkbox"] {
+    width: auto;
+}
+
+.button-grp{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.button{
+    width: calc(50% - 5px);
+    margin-bottom: 10px;
+    padding-bottom: 3.5%;
+    padding: 10px;
+    background-color: #cad8f2; 
+    border: solid 2px #6b4880;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    color: #6b4880;
+    font-family: 'Octuple max', sans-serif;
+    font-size: 1.8rem;
+    box-shadow: 0 0 10px rgba(190, 145, 206, 0.566);
+}
+
+.button:hover {
+    background-color: #c2a3d69c;
+    color: #ea458a;
+    border-color: #ea458a;
+    cursor: pointer;
+}
+
